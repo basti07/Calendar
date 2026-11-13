@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- STANDARD JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@7.1.1/all/global.js"></script>
+
+    <!-- THEME JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@7.1.1/themes/monarch/global.js"></script>
+
+    <!-- STYLESHEETS -->
+    <link href ='style.css' rel='stylesheet'\>
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@7.1.1/skeleton.css' rel='stylesheet' />
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@7.1.1/themes/monarch/theme.css' rel='stylesheet' />
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@7.1.1/themes/monarch/palettes/purple.css' rel='stylesheet' />
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script> -->
+
+    <!-- Start Calendar -->
+    <script src="calendar.js"></script>
+
+  </head>
+  <body>
+    <div id="title">
+      <h1>MIRAS ULTIMATIVER BEISCHLAF KALENDER</h1>
+    </div>
+
+    <div id="calendar"></div>
+
+    <dialog id="event">
+      <div id="event-text">
+        <h1 id="event-name"></h1>
+        <h1 id="event-date"></h1>
+        <h2 id="event-info"></h2>
+      </div>
+      <img id="event-image" src="">
+      <br>
+      <button id="event-end" commandfor="event" command="close">ZUR ÜBERSICHT</button>
+    </dialog>
+
+  </body>
+</html>
